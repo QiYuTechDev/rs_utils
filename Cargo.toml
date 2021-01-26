@@ -6,4 +6,12 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+default = []
+logger = ["slog", "slog-async", "slog-json", "slog-term"]
+
 [dependencies]
+slog = { version = "2", optional = true }
+slog-async = { version = "2", optional = true }
+slog-json = { version = "2", optional = true }
+slog-term = { version = "2", optional = true }
