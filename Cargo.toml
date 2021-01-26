@@ -3,6 +3,9 @@ name = "rs_utils"
 version = "0.1.0"
 authors = ["dev <dev@qiyutech.tech>"]
 edition = "2018"
+description = "奇遇科技 Rust 辅助工具"
+license-file = "LICENSE"
+homepage = "https://github.com/QiYuTechDev/rs_utils"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
