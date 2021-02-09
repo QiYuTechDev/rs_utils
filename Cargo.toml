@@ -1,6 +1,6 @@
 [package]
 name = "rs_utils"
-version = "0.0.5"
+version = "0.0.6"
 authors = ["dev <dev@qiyutech.tech>"]
 edition = "2018"
 description = "奇遇科技 Rust 辅助工具"

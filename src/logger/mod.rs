@@ -9,7 +9,7 @@ use slog::Drain;
 // export slog
 // prevent user need manual add slog dep and
 // avoid the version are not consistent
-#[macro_export]
+#[macro_reexport]
 pub use slog;
 
 /// 初始化日志系统
