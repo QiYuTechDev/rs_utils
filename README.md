@@ -5,3 +5,10 @@
 ![Crates.io](https://img.shields.io/crates/d/rs_utils)
 
 QiYuTech Rust Utils
+
+## Github Actions
+
+![Cross](https://github.com/QiYuTechDev/rs_utils/workflows/Cross/badge.svg?branch=main)
+![Debug Build](https://github.com/QiYuTechDev/rs_utils/workflows/Debug%20Build/badge.svg?branch=main)
+![Rust Lint](https://github.com/QiYuTechDev/rs_utils/workflows/Rust%20Lint/badge.svg)
+![Publish To Rust Crates](https://github.com/QiYuTechDev/rs_utils/workflows/Publish%20To%20Rust%20Crates/badge.svg)
