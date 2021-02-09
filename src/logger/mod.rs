@@ -1,16 +1,13 @@
 #[macro_use]
 extern crate slog;
 
-use std::fs::OpenOptions;
-use std::path::Path;
-
-use slog::Drain;
-
 // export slog
 // prevent user need manual add slog dep and
 // avoid the version are not consistent
-#[macro_reexport]
-pub use slog;
+pub use slog::*;
+
+use std::fs::OpenOptions;
+use std::path::Path;
 
 /// 初始化日志系统
 pub fn init_log_system<P>(file: &P) -> std::io::Result<slog::Logger>
