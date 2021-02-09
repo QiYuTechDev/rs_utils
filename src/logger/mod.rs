@@ -3,10 +3,15 @@ use std::path::Path;
 
 use slog::Drain;
 
+// export slog
+// prevent user need manual add slog dep and
+// avoid the version are not consistent
+pub use slog;
+
 /// 初始化日志系统
 pub fn init_log_system<P>(file: &P) -> std::io::Result<slog::Logger>
-    where
-        P: AsRef<Path>,
+where
+    P: AsRef<Path>,
 {
     let fp = OpenOptions::new()
         .create(true)
