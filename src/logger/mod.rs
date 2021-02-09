@@ -1,11 +1,6 @@
 #[macro_use]
 extern crate slog;
 
-// export slog
-// prevent user need manual add slog dep and
-// avoid the version are not consistent
-pub use slog::*;
-
 use std::fs::OpenOptions;
 use std::path::Path;
 
