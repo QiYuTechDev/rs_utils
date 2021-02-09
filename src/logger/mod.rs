@@ -1,6 +1,3 @@
-#[macro_use]
-extern crate slog;
-
 use std::fs::OpenOptions;
 use std::path::Path;
 
