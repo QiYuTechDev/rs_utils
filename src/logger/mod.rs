@@ -1,6 +1,8 @@
 use std::fs::OpenOptions;
 use std::path::Path;
 
+use slog::Drain;
+
 /// 初始化日志系统
 pub fn init_log_system<P>(file: &P) -> std::io::Result<slog::Logger>
 where
