@@ -1,0 +1,8 @@
+{
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/home/codespace/.cargo/bin"
+    },
+    "extensions": [
+        "rust-lang.rust-analyzer"
+    ]
+}
