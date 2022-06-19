@@ -1,8 +1,9 @@
 {
-    "remoteEnv": {
-        "PATH": "${containerEnv:PATH}:/home/codespace/.cargo/bin"
-    },
+    "image": "rust",
     "extensions": [
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust-analyzer",
+        "bungcip.better-toml",
+        "serayuzgur.crates",
+        "eamodio.gitlens"
     ]
 }
